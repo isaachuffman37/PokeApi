@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Source+Code+Pro:wght@300&family=Teko:wght@300&display=swap');
+
+
+.pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
+    align-content: center;
+}
+.h3_header{
+    font-size: 40pt;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Teko', sans-serif;
+}
+
+.sub_header{
+    text-align: center;
+    font-size: 40pt;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Teko', sans-serif;
+    margin-top: -10px;
+}
+
+.pokeImg{
+    border-radius: 20px;
+    border: solid 5px #ffff ;
+    max-width: 100%;
+    height: auto;
+}
+
+#pokemon_name{
+    font-size: 60pt;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Teko', sans-serif;
+
+}
+
+body{
+    text-align: center;
+}
+
+#prompt{
+    font-size: 40pt;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Teko', sans-serif;
+}
+
+#pokemonName{
+    font-size: 24pt;
+    margin-left: 15px;
+}
+
+#submit_button{
+    font-size: 24pt;
+}
+
+
+.description{
+    font-size: 32pt;
+    font-family: 'Pangolin', cursive;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Teko', sans-serif;
+}
+
